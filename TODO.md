@@ -1,5 +1,4 @@
-- Feed `.coverage` files to Coveralls
-- Test against and indicate support for Python 3.6 and pypy
+- Use Appveyor <https://packaging.python.org/appveyor/>
 
 - Documentation:
     - Create a Readthedocs site?

@@ -6,7 +6,11 @@
 .. image:: https://travis-ci.org/jwodder/linesep.svg?branch=master
     :target: https://travis-ci.org/jwodder/linesep
 
+.. image:: https://coveralls.io/repos/github/jwodder/linesep/badge.svg?branch=master
+    :target: https://coveralls.io/github/jwodder/linesep?branch=master
+
 .. image:: https://img.shields.io/pypi/pyversions/linesep.svg
+    :target: https://pypi.python.org/pypi/linesep
 
 .. image:: https://img.shields.io/github/license/jwodder/linesep.svg
     :target: https://opensource.org/licenses/MIT

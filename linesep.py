@@ -6,9 +6,11 @@ This module provides basic functions for reading & writing text with custom
 line separators that can occur either before, between, or after lines — though
 its primary purpose is actually to allow me to experiment with proper Python
 packaging & testing procedures.  Being actually useful is not its #1 goal.
+
+Visit <https://github.com/jwodder/linesep> for more information.
 """
 
-__version__      = '0.2.0.dev1'
+__version__      = '0.1.1'
 __author__       = 'John Thorvald Wodder II'
 __author_email__ = 'linesep@varonathe.org'
 __license__      = 'MIT'
@@ -254,8 +256,7 @@ def _join_pairs(iterable):
     unmodified.
     """
     i = iter(iterable)
-    while True:
-        a = next(i)
+    for a in i:
         try:
             b = next(i)
         except StopIteration:

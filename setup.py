@@ -26,9 +26,7 @@ setup(
     long_description=long_desc,
     url='https://github.com/jwodder/linesep',
 
-    setup_requires=['pytest-runner>=2.0,<3'],
     install_requires=[],
-    tests_require=['pytest>=2.8,<3', 'pytest-cov>=2.0,<3'],
 
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -41,9 +39,12 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: Implementation :: CPython',
+        'Programming Language :: Python :: Implementation :: PyPy',
 
-        'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
+        'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Topic :: Text Processing',
         'Topic :: Utilities',
